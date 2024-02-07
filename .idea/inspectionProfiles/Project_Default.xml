@@ -1,0 +1,184 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="AppEngineDeprecatedRuntimeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AppEngineThreadsafeCGIHandlerInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="AppEngineThreadsafeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CssInvalidFunction" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="CssNoGenericFontName" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="CssUnknownTarget" enabled="false" level="ERROR" enabled_by_default="false" />
+    <inspection_tool class="DjangoIncompatibleInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DjangoUnresolvedFilterInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DjangoUnresolvedLoadInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="DjangoUnresolvedTagInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="DjangoUrlArgumentsInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="ES6ConvertVarToLetConst" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="Eslint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="GrazieInspection" enabled="false" level="TYPO" enabled_by_default="false" />
+    <inspection_tool class="HtmlNonExistentInternetResource" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="HtmlPresentationalElement" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlRequiredSummaryAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlRequiredTitleAttribute" enabled="true" level="INFORMATION" enabled_by_default="true" />
+    <inspection_tool class="HtmlUnknownAttribute" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="52">
+            <item index="0" class="java.lang.String" itemvalue="loading" />
+            <item index="1" class="java.lang.String" itemvalue="@click" />
+            <item index="2" class="java.lang.String" itemvalue="x-data" />
+            <item index="3" class="java.lang.String" itemvalue="x-show" />
+            <item index="4" class="java.lang.String" itemvalue="@click.away" />
+            <item index="5" class="java.lang.String" itemvalue=":class" />
+            <item index="6" class="java.lang.String" itemvalue="x-model" />
+            <item index="7" class="java.lang.String" itemvalue="x-for" />
+            <item index="8" class="java.lang.String" itemvalue=":key" />
+            <item index="9" class="java.lang.String" itemvalue="x-text" />
+            <item index="10" class="java.lang.String" itemvalue="x-if" />
+            <item index="11" class="java.lang.String" itemvalue="x-init" />
+            <item index="12" class="java.lang.String" itemvalue="x-ref" />
+            <item index="13" class="java.lang.String" itemvalue="v-if" />
+            <item index="14" class="java.lang.String" itemvalue="v-else" />
+            <item index="15" class="java.lang.String" itemvalue="v-show" />
+            <item index="16" class="java.lang.String" itemvalue="v-model" />
+            <item index="17" class="java.lang.String" itemvalue="v-for" />
+            <item index="18" class="java.lang.String" itemvalue="v-html" />
+            <item index="19" class="java.lang.String" itemvalue="@keydown.enter.prevent" />
+            <item index="20" class="java.lang.String" itemvalue="x-on:click" />
+            <item index="21" class="java.lang.String" itemvalue="x-show.transition" />
+            <item index="22" class="java.lang.String" itemvalue="x-bind:src" />
+            <item index="23" class="java.lang.String" itemvalue="@click.prevent" />
+            <item index="24" class="java.lang.String" itemvalue="x-show.transition.duration.500ms.ease" />
+            <item index="25" class="java.lang.String" itemvalue="x-html" />
+            <item index="26" class="java.lang.String" itemvalue="x-bind:checked" />
+            <item index="27" class="java.lang.String" itemvalue="x-bind:style" />
+            <item index="28" class="java.lang.String" itemvalue="x-bind:data-id" />
+            <item index="29" class="java.lang.String" itemvalue="x-bind:data-name" />
+            <item index="30" class="java.lang.String" itemvalue="x-bind:data-window-variable-name" />
+            <item index="31" class="java.lang.String" itemvalue="x-bind:alt" />
+            <item index="32" class="java.lang.String" itemvalue="x-on:change" />
+            <item index="33" class="java.lang.String" itemvalue="x-bind:data-note" />
+            <item index="34" class="java.lang.String" itemvalue="x-bind:data-doc-name" />
+            <item index="35" class="java.lang.String" itemvalue="x-bind:data-type" />
+            <item index="36" class="java.lang.String" itemvalue="width" />
+            <item index="37" class="java.lang.String" itemvalue="height" />
+            <item index="38" class="java.lang.String" itemvalue="target" />
+            <item index="39" class="java.lang.String" itemvalue="data-location-row-column" />
+            <item index="40" class="java.lang.String" itemvalue="data-location-row-column-cell" />
+            <item index="41" class="java.lang.String" itemvalue="data-lineheight" />
+            <item index="42" class="java.lang.String" itemvalue="charset" />
+            <item index="43" class="java.lang.String" itemvalue="@mouseover" />
+            <item index="44" class="java.lang.String" itemvalue="@mouseleave" />
+            <item index="45" class="java.lang.String" itemvalue="netlify-honeypot" />
+            <item index="46" class="java.lang.String" itemvalue="@click.outside" />
+            <item index="47" class="java.lang.String" itemvalue="x-title" />
+            <item index="48" class="java.lang.String" itemvalue="x-bind:data-description" />
+            <item index="49" class="java.lang.String" itemvalue="x-on:the-account-page-tenant-file-creation-id:update-data.window" />
+            <item index="50" class="java.lang.String" itemvalue="x-on:scroll.debounce" />
+            <item index="51" class="java.lang.String" itemvalue="x-on:sa-the-map-of-agencies:update-data.window" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="HtmlUnknownTag" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myValues">
+        <value>
+          <list size="7">
+            <item index="0" class="java.lang.String" itemvalue="nobr" />
+            <item index="1" class="java.lang.String" itemvalue="noembed" />
+            <item index="2" class="java.lang.String" itemvalue="comment" />
+            <item index="3" class="java.lang.String" itemvalue="noscript" />
+            <item index="4" class="java.lang.String" itemvalue="embed" />
+            <item index="5" class="java.lang.String" itemvalue="script" />
+            <item index="6" class="java.lang.String" itemvalue="ul" />
+          </list>
+        </value>
+      </option>
+      <option name="myCustomValuesEnabled" value="true" />
+    </inspection_tool>
+    <inspection_tool class="LanguageDetectionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="NpmUsedModulesInstalled" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <value>
+          <list size="58">
+            <item index="0" class="java.lang.String" itemvalue="PyGreSQL" />
+            <item index="1" class="java.lang.String" itemvalue="six" />
+            <item index="2" class="java.lang.String" itemvalue="python-dateutil" />
+            <item index="3" class="java.lang.String" itemvalue="bootstrap-master" />
+            <item index="4" class="java.lang.String" itemvalue="traitlets" />
+            <item index="5" class="java.lang.String" itemvalue="bs4" />
+            <item index="6" class="java.lang.String" itemvalue="pickleshare" />
+            <item index="7" class="java.lang.String" itemvalue="psycopg2" />
+            <item index="8" class="java.lang.String" itemvalue="invoke" />
+            <item index="9" class="java.lang.String" itemvalue="pycparser" />
+            <item index="10" class="java.lang.String" itemvalue="ipython-genutils" />
+            <item index="11" class="java.lang.String" itemvalue="appdirs" />
+            <item index="12" class="java.lang.String" itemvalue="filelock" />
+            <item index="13" class="java.lang.String" itemvalue="PyNaCl" />
+            <item index="14" class="java.lang.String" itemvalue="contextlib2" />
+            <item index="15" class="java.lang.String" itemvalue="libCommonDjango" />
+            <item index="16" class="java.lang.String" itemvalue="Pygments" />
+            <item index="17" class="java.lang.String" itemvalue="scandir" />
+            <item index="18" class="java.lang.String" itemvalue="virtualenvwrapper" />
+            <item index="19" class="java.lang.String" itemvalue="oauthlib" />
+            <item index="20" class="java.lang.String" itemvalue="dbutils" />
+            <item index="21" class="java.lang.String" itemvalue="django-appconf" />
+            <item index="22" class="java.lang.String" itemvalue="pexpect" />
+            <item index="23" class="java.lang.String" itemvalue="libcommon" />
+            <item index="24" class="java.lang.String" itemvalue="bcrypt" />
+            <item index="25" class="java.lang.String" itemvalue="paramiko" />
+            <item index="26" class="java.lang.String" itemvalue="configparser" />
+            <item index="27" class="java.lang.String" itemvalue="fabric" />
+            <item index="28" class="java.lang.String" itemvalue="virtualenv" />
+            <item index="29" class="java.lang.String" itemvalue="typing" />
+            <item index="30" class="java.lang.String" itemvalue="distlib" />
+            <item index="31" class="java.lang.String" itemvalue="enum34" />
+            <item index="32" class="java.lang.String" itemvalue="ipaddress" />
+            <item index="33" class="java.lang.String" itemvalue="pbr" />
+            <item index="34" class="java.lang.String" itemvalue="PyJWT" />
+            <item index="35" class="java.lang.String" itemvalue="decorator" />
+            <item index="36" class="java.lang.String" itemvalue="ptyprocess" />
+            <item index="37" class="java.lang.String" itemvalue="cffi" />
+            <item index="38" class="java.lang.String" itemvalue="backports.shutil-get-terminal-size" />
+            <item index="39" class="java.lang.String" itemvalue="wcwidth" />
+            <item index="40" class="java.lang.String" itemvalue="bootstrap" />
+            <item index="41" class="java.lang.String" itemvalue="requests" />
+            <item index="42" class="java.lang.String" itemvalue="importlib-metadata" />
+            <item index="43" class="java.lang.String" itemvalue="simplegeneric" />
+            <item index="44" class="java.lang.String" itemvalue="sqlparse" />
+            <item index="45" class="java.lang.String" itemvalue="requests-oauthlib" />
+            <item index="46" class="java.lang.String" itemvalue="virtualenv-clone" />
+            <item index="47" class="java.lang.String" itemvalue="ipdb" />
+            <item index="48" class="java.lang.String" itemvalue="zipp" />
+            <item index="49" class="java.lang.String" itemvalue="prompt-toolkit" />
+            <item index="50" class="java.lang.String" itemvalue="stevedore" />
+            <item index="51" class="java.lang.String" itemvalue="ipython" />
+            <item index="52" class="java.lang.String" itemvalue="django-compressor" />
+            <item index="53" class="java.lang.String" itemvalue="pathlib2" />
+            <item index="54" class="java.lang.String" itemvalue="singledispatch" />
+            <item index="55" class="java.lang.String" itemvalue="fabtools" />
+            <item index="56" class="java.lang.String" itemvalue="importlib-resources" />
+            <item index="57" class="java.lang.String" itemvalue="cryptography" />
+          </list>
+        </value>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8Inspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="Query_bound_parameters" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Query_index_required" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="Query_restricted" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="RequiredAttributes" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="myAdditionalRequiredHtmlAttributes" value="src" />
+    </inspection_tool>
+    <inspection_tool class="Restricted_Python_calls" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="SpellCheckingInspection" enabled="false" level="TYPO" enabled_by_default="false">
+      <option name="processCode" value="true" />
+      <option name="processLiterals" value="true" />
+      <option name="processComments" value="true" />
+    </inspection_tool>
+    <inspection_tool class="TsLint" enabled="true" level="WARNING" enabled_by_default="true" />
+    <inspection_tool class="XmlUnboundNsPrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="XmlUnusedNamespaceDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+  </profile>
+</component>

@@ -1,0 +1,40 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import diplomes from "../assets/diplomes.jpg";
+---
+
+<Layout
+    title="Audrey Larcebau psychologue"
+    metaDescription="Audrey Larcebau, formation, expérience et pratiques. Psychologue à Anglet."
+>
+  <main
+      class="container mx-auto grid grid-cols-1 gap-10 py-10 md:grid-cols-12"
+      id="maincontent"
+      tabindex="-1"
+  >
+    <div class="col-span-7">
+      <h1 class="c-page-h1 text-2xl md:text-3xl mb-5">Audrey Larcebau, psychologue</h1>
+      <h2 class="text-xl mb-5">Mes diplômes</h2>
+      <ul>
+        <li>Diplômée d'un master de Psychologue clinicienne à l'université de Bordeaux 2, spécialisation Enfance et adolescence et développement de la personne tout au long de sa vie.</li>
+        <li>Thérapeute EMDR accréditée</li>
+      </ul>
+      <hr class="c-hr">
+      <h2 class="text-xl mb-5">Mes formations</h2>
+      <ul class="list-disc *:ml-5 *:mb-2">
+        <li>Formée à la pratique de la relation d'aide centrée sur la personne (Carl Rogers) - IFRDP Dijon.</li>
+        <li>Formation "jusqu'au bout accompagner la vie"- Association Alliance 64</li>
+        <li>Formée à la thérapie EMDR- Désensibilisation et reprogrammation par mouvements oculaires- EFPE Toulouse.</li>
+        <li>Formation EMDR et douleurs chroniques</li>
+        <li>Intervient au Centre Douleurs de Saint-Jean-de-Luz auprès d'une équipe pluridisciplinaire</li>
+      </ul>
+      <hr class="c-hr">
+      <h2 class="text-xl mb-5">Ma pratique</h2>
+      <p>Ma pratique auprès des patients touchés par le cancer et le vif intérêt que je porte aux liens entre corps et esprit me permettent de me spécialiser dans l’accompagnement de la maladie et des douleurs chroniques, sur le chemin de la guérison.</p>
+    </div>
+    <aside class="col-span-4">
+      <Image src={diplomes} alt="un livre ouvert" class="mx-auto">
+    </aside>
+  </main>
+</Layout>

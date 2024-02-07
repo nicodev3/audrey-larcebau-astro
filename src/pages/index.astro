@@ -1,0 +1,58 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Card from "../components/Card.astro";
+---
+
+<Layout
+    title="Psychologue Côte-Basque"
+    metaDescription="Audrey Larcebeau, psychologue à Anglet. EMDR adultes, enfants, adolescents."
+>
+  <main>
+    <header class="c-page-section container py-10">
+      <h1 class="mb-5 text-2xl md:text-3xl">Psychologue à Anglet</h1>
+      <p class="mb-5 md:w-2/3">
+        L'accompagnement que je propose au cabinet de psychologie d'Anglet,
+        autant avec les enfants qu'avec les adultes, repose sur un climat de
+        confiance où le cadre doit être le plus sécurisant possible pour que la
+        personne puisse cheminer vers un accomplissement personnel plus
+        harmonieux.
+      </p>
+      <p class="md:w-2/3">
+        La thérapie permet à la personne de dépasser des blocages qui peuvent
+        entraver sa croissance et son épanouissement et de pouvoir faire face
+        avec plus de sérénité aux difficultés de la vie.
+      </p>
+    </header>
+    <section class="container mx-auto">
+      <ul
+        role="list"
+        class="grid gap-10 md:grid-cols-2 lg:w-2/3"
+      >
+        <Card
+          href="/emdr-anglet/"
+          title="EMDR"
+          svg="emdr.svg"
+          body="La thérapie EMDR, dont l'efficacité est scientifiquement validée, permet d'aborder les petits et grands traumatisme de la vie et de les intégrer."
+        />
+        <Card
+          href="/consulter-psychologue/"
+          title="Pourquoi consulter"
+          svg="consulter.svg"
+          body="La plupart d'entre nous se demande quand il est utile voire nécessaire de consulter un psychologue. Savoir quand et pourquoi consulter."
+        />
+        <Card
+          href="/cabinet-psychologue-anglet/"
+          title="Le cabinet d'Anglet"
+          svg="cabinet.svg"
+          body="Si vous souhaitez en connaître davantage sur le cabinet de psychologie d'Anglet, les tarifs pratiquer, ou tout simplement me contacter."
+        />
+        <Card
+          href=/audrey-larcebau/
+          title="Qui suis-je ?"
+          svg="audrey.svg"
+          body="Psychologue diplômée et thérapeut EMDR accréditée, vous souhaitez peut-être en savoir un peu plus sur ma formation, mon parcours et ma pratique."
+        />
+      </ul>
+    </section>
+  </main>
+</Layout>

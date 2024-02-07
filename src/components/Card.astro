@@ -1,0 +1,36 @@
+---
+interface Props {
+  title: string;
+  svg: string;
+  body: string;
+  href: string;
+}
+
+const { href, title, body, svg } = Astro.props;
+---
+
+<li class="link-card p-8 shadow-md">
+  <a
+    href={href}
+    class="group flex flex-col items-center gap-5"
+  >
+    <h2 class="border-b-2 border-b-indigo-300 text-2xl">
+      {title}
+    </h2>
+    <div class="text-red-500">
+      <img
+        src={svg}
+        alt={title}
+      />
+    </div>
+
+    <p>
+      {body}
+    </p>
+    <span
+      class="block self-end border border-pink-700 px-4 py-3 transition-colors group-hover:bg-pink-700 group-hover:text-white"
+    >
+      {title}
+    </span>
+  </a>
+</li>

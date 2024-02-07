@@ -1,0 +1,129 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import cabinet from "../assets/cabinet-3.jpeg";
+import audrey from "../assets/audrey-larcebeau-psychologue.jpeg";
+---
+
+<Layout
+    title="Cabinet psychologue Anglet"
+    metaDescription="Cabinet de psychologie d'Anglet. Horaires, plan, tarifs."
+>
+  <main
+    class="container mx-auto grid grid-cols-1 gap-10 py-10 md:grid-cols-12"
+    id="maincontent"
+    tabindex="-1"
+  >
+    <div class="col-span-7">
+      <header class="c-page-section">
+        <h1 class="c-page-h1 mb-5 text-2xl md:text-3xl">
+          Renseignements et contact
+        </h1>
+      </header>
+
+      <section class="c-page-section">
+        <h2 class="text-2xl mb-5">Venir au cabinet d’Anglet</h2>
+        <p>4Bis Avenue de la Butte aux cailles Espace Maharin bât A, Anglet.</p>
+      </section>
+
+      <hr class="c-hr" />
+
+      <section class="c-page-section">
+        <h2 class="text-2xl mb-5">Tarifs des séances de psychologie</h2>
+        <p>Le tarif de la séance est fixé à 60 euros.</p>
+        <p>
+          Les consultations exercées par les psychologues ne bénéficient pas de
+          remboursements par la Sécurité Sociale.
+        </p>
+        <p>
+          Toutefois certaines mutuelles peuvent parfois prendre en charge les
+          séances.
+        </p>
+      </section>
+
+      <hr class="c-hr" />
+
+      <section class="c-page-section">
+        <h2 class="tw-mb-5 text-2xl mb-5">Me contacter</h2>
+        <form
+          class="border p-5 rounded-md bg-cyan-50 flex flex-col gap-5"
+          action="https://formspree.io/audreylarcebau@yahoo.fr"
+          method="POST"
+        >
+          <div class="flex gap-10">
+            <div class="flex flex-col">
+              <label>Prénom</label>
+              <input
+                type="text"
+                name="first-name"
+                placeholder="Prénom"
+                class="border p-2"
+              />
+            </div>
+            <div class="flex flex-col">
+              <label>Nom</label>
+              <input
+                type="text"
+                name="last-name"
+                placeholder="Nom"
+                class="border p-2"
+              />
+            </div>
+          </div>
+          <div class="flex gap-10">
+            <div class="flex flex-col">
+              <label for="">Email</label>
+              <input
+                type="email"
+                name="email"
+                placeholder="votre email"
+                class="border p-2"
+              />
+            </div>
+            <div class="flex flex-col">
+              <label for="">Téléphone</label>
+              <input
+                type="tel"
+                name="phone"
+                placeholder=""
+                class="border p-2"
+              />
+            </div>
+          </div>
+          <div class="flex flex-col">
+            <label>Votre message</label>
+            <textarea
+              name="message"
+              placeholder="Votre message"
+              class="border p-2"
+            ></textarea>
+          </div>
+          <button
+            class="bg-cyan-500 text-white p-2 rounded-md w-1/2 self-center"
+            type="submit"
+            >Envoyer</button
+          >
+          <div class="ui error message"></div>
+
+          <input
+            type="hidden"
+            name="_language"
+            value="fr"
+          />
+        </form>
+      </section>
+    </div>
+    <aside class="col-span-4">
+      <Image
+        class="page-img mb-5 block"
+        src={cabinet}
+        alt="cabinet de psychologie"
+      />
+      <Image
+        class="page-img"
+        src={audrey}
+        alt="audrey larcebau"
+      />
+    </aside>
+  </main>
+</Layout>

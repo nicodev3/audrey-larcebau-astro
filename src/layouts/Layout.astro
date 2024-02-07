@@ -1,0 +1,180 @@
+---
+interface Props {
+  title: string;
+  metaDescription: string;
+}
+
+const { title, metaDescription } = Astro.props;
+---
+
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content={metaDescription}/>
+    <meta name="viewport" content="width=device-width"/>
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg"/>
+    <meta name="generator" content={Astro.generator}/>
+    <link rel="sitemap" href="/sitemap-index.xml" />
+    <title>{title}</title>
+  </head>
+  <body>
+  <header class="bg-cyan-900 relative py-2">
+    <div class="container relative">
+      <a href="#maincontent" class="skip-link absolute left-0 top--2 hidden">Aller au contenu principal</a>
+      <a class="text-white bg-white flex items-center justify-center rounded-full w-10 h-10"
+         href="/"
+         aria-label="Retour à la page d'accueil"
+         >
+        <svg xmlns="http://www.w3.org/2000/svg" width="70" fill="#cb4e70" viewBox="0 0 212.1 212.1"><path d="M103.8 81.2c5.8.2 11.5.8 16.9 1.9 2.5.4 5.2.8 3 3.9 0 .1-.7 1.1-.7 1.2-6.8-2.5-13.3-4-20.8-4.1-20.4 34-15.5 75.6 32.7 15.5l1.1 1c-4.5 6.2-37.7 46.8-49.1 30.6-8.2-11.7 3.5-35.1 10.1-47.5-12.4 0-23.9 1.9-28.3 3.3-.7 1-21.8 26-28.3 32.5-34.6 35.1-36.8-13.4 22.8-32.6 1.3-.5 4.5-1.5 4.5-1.5C112.9 31 154 10.2 123.5 50.8c-11.6 16.2-15.2 22.4-19.7 30.4zm-37.6 6.3c-58 15.5-56.1 65.2-20.9 24.4C67.4 86 64.6 89.2 66.2 87.5zm4.5-2.9c10.4-2.3 19.2-3 27.9-3.5.3-.6.5-.9.5-.9 10.2-17.2 16.6-25.1 29.3-41.4 13.3-17.7-20.4-.2-57.7 45.8z"/><path d="M114.9 140.6c-10.7 10.9-26 21.8-39.1 13.9-21-12.7-3.3-50.5 25.6-33.9 7.2 4 11.5 9.1 16.7 14.4 11.3-12.3 22.2-28.3 30.8-46.6-9.2 2-16.6-3-16.6-5.9 0-.6.8-1.9 2.5-3.8 3.2 6.4 8.3 8.4 15.1 7.5 31.5-68.2 40.8-11.3.9 1.6-13.8 29.6-28.8 44.5-31.7 48.3 19.3 21.9 44.1 43 61 19.4l1.2.7c-2.5 3.8-5.6 6.6-9.4 8.6-21.9 12-43.2-9.6-57-24.2zm-1.1-1.3c-45.4-51.2-60.2 15-26.1 15 10.4 0 19-7.3 26.1-15zm38-53.4c18-5.9 29-28.3 19.9-28.3-7.4 0-16.9 21.6-19.9 28.3z"/><path d="M106 212.1c-58.5 0-106-47.6-106-106C0 47.6 47.6 0 106 0s106 47.6 106 106c.1 58.5-47.5 106.1-106 106.1zm0-207.9C49.9 4.2 4.2 49.9 4.2 106c0 56.1 45.7 101.8 101.8 101.8S207.8 162.2 207.8 106C207.8 49.9 162.2 4.2 106 4.2z"/></svg>
+      </a>
+      <span class="flex items-center bg-ac py-2 px-3 absolute right-2 bottom-0 text-white bg-pink-600"> 06 03 71 50 09</span>
+    </div>
+  </header>
+  <nav class="bg-indigo-200">
+    <div class="container mx-auto flex">
+      <ul class="flex flex-wrap gap-2 py-4 md:text-lg font-medium">
+        <li><a href="/emdr-anglet/" class="hover:text-pink-700">EMDR</a> |</li>
+        <li><a href="/consulter-psychologue/" class="hover:text-pink-700">Pourquoi consulter</a> |</li>
+        <li><a href="/cabinet-psychologue-anglet/" class="hover:text-pink-700">Le cabinet</a> |</li>
+        <li><a href="/audrey-larcebau/" class="hover:text-pink-700">Qui suis-je&nbsp;?</a></li>
+      </ul>
+    </div>
+  </nav>
+    <slot />
+    <footer class="pt-10 pb-5 bg-cyan-900 text-white">
+      <div class="container mx-auto grid md:grid-cols-3 gap-10">
+        <div>
+          <h2 class="mb-5">Plan du site</h2>
+          <nav>
+            <ul>
+              <li>
+                <a
+                  href="/emdr-anglet/"
+                  class="hover:text-pink-200"
+                  >EMDR</a>
+              </li>
+              <li>
+                <a
+                  href="/consulter-psychologue/"
+                  class="hover:text-pink-200"
+                  >Pourquoi consulter</a>
+              </li>
+              <li>
+                <a
+                  href="/cabinet-psychologue-anglet/"
+                  class="hover:text-pink-200"
+                  >Le cabinet</a>
+              </li>
+              <li>
+                <a
+                  href="/audrey-larcebau/"
+                  class="hover:text-pink-200"
+                  >Qui suis-je&nbsp;?</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+        <div>
+          <div
+            itemscope=""
+            itemtype="http://schema.org/LocalBusiness"
+          >
+            <h2
+              class="mb-5"
+              itemprop="name"
+            >
+              Audrey Larcebau
+            </h2>
+
+            <div
+              itemprop="address"
+              itemscope=""
+              itemtype="http://schema.org/PostalAddress"
+            >
+              <span
+                class="block"
+                itemprop="streetAddress"
+                >4Bis Avenue de la Butte aux Cailles, Espace Maharin, bât A</span
+              >
+              <span itemprop="postalCode">64600</span>
+              <span itemprop="addressLocality">Anglet</span>
+              <span
+                class="block"
+                itemprop="telephone"
+                >06 03 71 50 09</span
+              >
+            </div>
+          </div>
+          <script type="application/ld+json">
+            {
+              "@context": "http://schema.org",
+              "@type": "Physician",
+              "name": "Audrey Larcebau",
+              "url": "",
+              "description": "Psychologue clinicienne",
+              "telephone": "+3306 03 71 50 09",
+              "image": "",
+              "address": {
+                "@type": "PostalAddress",
+                "streetAddress": "4Bis Avenue de la Butte aux cailles Espace Maharin bât A",
+                "addressLocality": "Anglet",
+                "postalCode": "64600",
+                "addressCountry": "France"
+              },
+              "geo": {
+                "@type": "GeoCoordinates",
+                "latitude": "43.4933926",
+                "longitude": "-1.5268768999999338"
+              }
+            }
+          </script>
+          <div>
+            <p>N°ADELI: 64 93 0494 6</p>
+            <p>N° SIRET: 52965366900034</p>
+          </div>
+        </div>
+
+        <div>
+          <h2 class="mb-5">Psychologue à Anglet</h2>
+          <p>
+            Psychologue dans les villes de Anglet, Bayonne, Biarritz, Bidart
+          </p>
+        </div>
+      </div>
+      <div class="container mx-auto mt-8">
+        <div class="grid md:grid-cols-2 text-sm mb-5">
+          <p>Tous droits réservés, Audrey Larcebau, 2016-2023</p>
+          <a
+            href="/mentions-legales/"
+            class="underline"
+            >Mentions légales</a
+          >
+        </div>
+
+        <p class="flex gap-2 text-sm">
+          Site réalisé par nicodev, <a
+            href="https://nicodev3.github.io"
+            rel="nofollow"
+            class="underline"
+          >
+            création de sites internet pour psychologues</a
+          >
+        </p>
+      </div>
+    </footer>
+  </body>
+</html>
+<style is:global>
+  .c-page-section {
+    @apply mb-10 md:mb-12;
+  }
+
+  .c-page-h2 {
+      @apply text-2xl mb-5;
+  }
+
+  .c-hr {
+    @apply border-t border-cyan-900 my-10;
+  }
+</style>

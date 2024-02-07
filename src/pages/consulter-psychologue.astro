@@ -1,0 +1,71 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Image } from "astro:assets";
+import myImage from "../assets/consultation-enfant.jpeg";
+---
+
+<Layout
+    title="Consulter un psychologue"
+    metaDescription="Pourquoi consulter un psychologue. Par Audrey Larcebau, psychologue à Anglet."
+>
+  <main
+    class="container mx-auto grid grid-cols-1 gap-10 py-10 md:grid-cols-12"
+    id="maincontent"
+    tabindex="-1"
+  >
+    <div class="col-span-7">
+      <header class="c-page-section">
+        <h1 class="c-page-h1 mb-5 text-2xl md:text-3xl">
+          La consultation chez le psychologue aux âges de la vie
+        </h1>
+      </header>
+
+      <section class="c-page-section">
+        <h2 class="c-page-h2">La consultation avec l'enfant</h2>
+        <p>
+          Pour les enfants, la psychothérapie peut apporter des réponses aux
+          difficultés scolaires liées à des troubles psychologiques, à des
+          problèmes relationnels ou comportementaux, des troubles du sommeil,
+          angoisses, phobies, opposition, etc.
+        </p>
+      </section>
+
+      <hr class="c-hr" />
+      <section class="c-page-section">
+        <h2 class="c-page-h2">La consultation avec l'adolescent</h2>
+        <p>
+          Les adolescents ont souvent du mal à verbaliser leur souffrance et ce
+          sont souvent les parents qui font appel à un psychologue pour des
+          problématiques liées à l'orientation scolaire, le manque de confiance
+          en soi, un sentiment de mal-être, des troubles de l'alimentation, une
+          dépendance à l'alcool, la drogue, les jeux vidéo. Pouvoir exprimer "ce
+          qui ne va pas" permet à l'adolescent de se libérer et de pouvoir
+          aborder l'avenir avec plus de sérénité.
+        </p>
+      </section>
+
+      <hr class="c-hr" />
+      <section class="c-page-section">
+        <h2 class="c-page-h2">La consultation avec l'adulte</h2>
+        <p>
+          Diverses raisons peuvent motiver les adultes à venir consulter un
+          psychologue: une étape importante à franchir, une grave décision à
+          prendre, la maladie, le deuil, la souffrance psychologique ou encore
+          des difficultés rencontrées dans la famille ou dans le couple.
+        </p>
+        <p>
+          Le but de la psychothérapie est de vous permettre de mieux vous
+          connaître et ainsi d'accepter ce que vous êtes et ce que vous éprouvez
+          dans une plus grande harmonie et sérénité.
+        </p>
+      </section>
+    </div>
+    <aside class="col-span-4">
+        <Image
+            src={myImage}
+            alt="Consultation chez le psychologue pour enfant et adolescent"
+            class="rounded-lg mx-auto"
+        />
+    </aside>
+  </main>
+</Layout>
